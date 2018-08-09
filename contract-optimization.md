@@ -1,18 +1,29 @@
 # Smart Contract Optimization Tips
 
-### GAS Fee
+### 1. GAS Fee
   - Transaction fee for ethereum blockchain network
-  - Must pay for transaction confirmation
+  - We must pay GAS fee for transaction confirmation
   - On Smart Contract, heavier contract needs more GAS Fee
 
-### RLP
-  - Smart Contract uses RLP : Recursive Length Prefix for data storing
-  - On ethereum block, they store 256-bytes at once
-  - Every single variable we declare eats 256-byte storage, even if it's <code>bool</code>
-  - single (256-byte) storage needs significant amount of 20000 GAS
+### 2. RLP
+  - Smart Contract uses **RLP** : Recursive Length Prefix for data storing
+  - On ethereum block, they store 32 byte at once
+  - Every single variable we declare eats 32-byte storage, even if it's <code>bool</code>
+  - single (32-byte) storage requires significant amount of **20000 GAS**
 
-### Storage & Variable Optimization
-  - We have to use <code>Struct</code> to solve this problem
+### 3. Storage & Variable Optimization
+  - We have to use <code>struct</code> to solve this problem
+  - using single <code>struct</code> instead of using multiple variables like <code>uint32</code> will be significantly efficient
+
+#### 3.1. Optimization Example
+<pre><code>uint32 a, b, c; // each of them uses 32byte (20000 GAS), total 60000 GAS
+
+struct abc  {  // whole struct uses 12byte (+ RLP Header), total 20000 GAS
+  uint32 a;    // 4byte
+  uint32 b;    // 4byte
+  uint32 c;    // 4byte
+}
+</code></pre>
 
 Ethereum & solidity works *pretty well*, even on test network
 
