@@ -18,10 +18,10 @@
 #### 3.1. Optimization Example
 <pre><code>uint32 a, b, c; // each of them uses 32byte (20000 GAS), total 60000 GAS
 
-struct abc  {  // whole struct uses 12byte (+ RLP Header), total 20000 GAS
-  uint32 a;    // 4byte
-  uint32 b;    // 4byte
-  uint32 c;    // 4byte
+struct abc  {   // whole struct uses 12byte (+ RLP Header), total 20000 GAS
+  uint32 a;     // 4byte
+  uint32 b;     // 4byte
+  uint32 c;     // 4byte
 }
 </code></pre>
 
