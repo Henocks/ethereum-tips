@@ -7,4 +7,16 @@
   - Modifier is most common and easy way for smart contract exception filering and security enhancing
 
 ### 2. Example
-  - using keyword <code>modifier</code>, we can define modifier on solidity.
+  - Using keyword <code>modifier</code>, we can define modifier on solidity.
+  - We can define it on this way:
+<pre><code>modifier foo(bar) {
+  if (bar != something) throw; 
+  _;
+
+}</code></pre>
+  - Or more common and better way:
+<pre><code>modifier foo(bar) {
+  require(bar != something); 
+  _;
+
+}</code></pre>
