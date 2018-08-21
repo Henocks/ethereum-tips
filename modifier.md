@@ -7,3 +7,4 @@
   - Modifier is most common and easy way for smart contract exception filering and security enhancing
 
 ### 2. Example
+  - using keyword <code>modifier</code>, we can define modifier on solidity.
