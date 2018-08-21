@@ -24,3 +24,4 @@
 
 ### 3. Why we use this?
   - To make function call requirements clear
+  - Make requirement check part clean and easy to refactor
