@@ -8,15 +8,19 @@
 
 ### 2. Example
   - Using keyword <code>modifier</code>, we can define modifier on solidity.
-  - We can define it on this way:
+  - We can define it on this way :
 <pre><code>modifier foo(bar) {
   if (bar != something) throw; 
   _;
 
 }</code></pre>
-  - Or more common and better way:
+  - Or more common and better way :
 <pre><code>modifier foo(bar) {
   require(bar != something); 
   _;
 
 }</code></pre>
+  - Mostly, developers use second way.
+
+### 3. Why we use this?
+  - To make function call requirements clear
