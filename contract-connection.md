@@ -21,3 +21,23 @@ contract b {
 </code></pre>
   - To connect these contracts, target contract(contract to call) must be arleady published to blockchain network.
   - After target contract creation, we can use contract address for contract instance genetration.
+<pre><code>// acontract at 0x0000000000000000000000000000000000001234
+
+contract acontract {
+    function alpha(uint8 alp) {
+        // blah ...
+    }
+}
+
+contract bcontract {
+    function beta(uint8 bet) {
+        // Contract instance(interface) creation
+        acontract aInstance = acontract(0x000...0001234);
+        
+        // Other contract function call
+        aInstance.alpha(bet);
+    }
+}
+</code></pre>
+  - Just like this.
+  - Be careful for GAS spending.
