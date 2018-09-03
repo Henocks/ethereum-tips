@@ -31,9 +31,6 @@ Ethereum & solidity works *pretty well*, even on test network
 >
 > :D
 >
-> :>
->
-> :o
 
 ### Tech
 
