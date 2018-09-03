@@ -24,6 +24,7 @@ struct abc  {   // whole struct uses 12byte (+ RLP Header), total 20000 GAS
   uint32 c;     // 4byte
 }
 </code></pre>
+  - By using enhanced <code>RLP Structure</code>, a lot of GAS fee decreased
 
 Ethereum & solidity works *pretty well*, even on test network
 
