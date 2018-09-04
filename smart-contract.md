@@ -7,5 +7,5 @@
 
 ### 2. Examples
   - Currently, **Solidity** is most common ethereum smart contract language, which includes Solidity Compiler.
-  - Alternatively, **Vyper** : Python-base smart contract scripting language is currently in dev progress.
+  - Alternatively, **Vyper** : Python-scripting based smart contract scripting language is currently in dev progress.
   - But, Vyper is a lot more complicated than solidity.
