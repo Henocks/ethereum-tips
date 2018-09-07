@@ -41,3 +41,4 @@ contract bcontract {
 </code></pre>
   - Just like this.
   - Be careful for GAS spending.
+  - Connecting contracts like proxy makes development easy.
