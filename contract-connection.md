@@ -42,3 +42,4 @@ contract bcontract {
   - Just like this.
   - Be careful for GAS spending.
   - Connecting contracts like proxy makes development easy.
+  - Addtionally, using proxy-like contract structure will make you update your smart contracts!
