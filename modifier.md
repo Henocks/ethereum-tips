@@ -21,8 +21,17 @@
 
 }</code></pre>
   - Mostly, developers use second way.
+<pre><code>modifier foo(bar) {
+  require(bar != something, "error message!"); 
+  _;
+
+}</code></pre>
+- For better event tracking & debugging!
 
 ### 3. Why we use this?
   - To make function call requirements clear
   - Make requirement check part clean and easy to refactor
   - Additionally, processing <code>revert()</code> inside of modifier makes code more oriented.
+
+### 4. Use Cases
+  - One of ther most common case is **Overflow Checking**. In most of secure, asset-related contracts use overflow-checking modifiers to prevent these problems.
