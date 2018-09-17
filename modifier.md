@@ -20,7 +20,7 @@
   _;
 
 }</code></pre>
-  - Mostly, developers use second way.
+  - Mostly, developers use the second way.
 <pre><code>modifier foo(bar) {
   require(bar != something, "error message!"); 
   _;
