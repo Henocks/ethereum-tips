@@ -11,4 +11,4 @@
   - Many functional enhancements were added
   - Special keywords like <code>address</code>, <code>mapping</code> are implemented
   - Currently(2018-09-20), version **0.4.25** is the newest solidity compiler version.
-  - 
+  - Solidity development team is developing version **0.5**. Launching soon!
