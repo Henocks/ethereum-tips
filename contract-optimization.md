@@ -61,15 +61,15 @@ $ npm install --production
 $ NODE_ENV=production node app
 ```
 
-### Plugins
+### 5. GAS Costs Chart
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+The chart below shows exact GAS Fee needed to execute single EVM OPCODE.
 
-| Plugin | README |
+| OPCODE | GAS Fee |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| Github | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| STOP | 0 |
+| ADD | 3 |
+| MUL | 5 |
+| SUB | 5 |
+| DIV | 5 |
+| SDIV | 5 |
