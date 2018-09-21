@@ -1,7 +1,7 @@
 # Solidity
 
 ### 1. Definition
-  - Solidity is very efficent, high level **contract-oriented** language for Ethereum **smart contract** development
+  - Solidity is very efficent, high level **contract-oriented** language & compiler for Ethereum **smart contract** development
   - It is deveoped by Ethereum core developers
   - We can publish our smart contracts via **Solidity Compiler**
 
