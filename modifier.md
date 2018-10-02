@@ -46,7 +46,7 @@ foo(bar) // here!
 }
 
 function addValue(uint256 num1, uint256 num2)
-overFlowChecker((num1+num2), num1, num2)
+overFlowChecker((num1+num2), num1, num2) //checks overflow
 {
   return (num1 + num2);
 }</code></pre>
