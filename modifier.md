@@ -39,7 +39,7 @@ foo(bar) // here!
   - Additionally, processing <code>revert()</code> inside of modifier makes code more oriented.
 
 ### 4. Use Cases
-  - One of ther most common case is **Overflow Checking**. In most of secure, asset-related contracts use overflow-checking modifiers to prevent these problems.
+  - One of the most common case is **Overflow Checking**. In most of secure, asset-related contracts use overflow-checking modifiers to prevent these problems.
 <pre><code>modifier overFlowChecker(uint256 a, uint256 b, uint256 c) {
   if((a - b) != c) revert("overflow!");
   _;
