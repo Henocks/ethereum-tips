@@ -6,3 +6,4 @@ List of Tips
   - contract-optimization : about optimizing(reducing) GAS fees of smart contract
   - modifier : using modifiers to make secure and concrete code
   - smart-contract : what is smart contract, how we use it
+  - solidity : what is solidity, about solidity developing environment
