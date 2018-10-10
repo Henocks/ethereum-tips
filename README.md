@@ -1,2 +1,2 @@
 # ethereum-tips
-Private ethereum tips
+Ryan's ethereum tips
