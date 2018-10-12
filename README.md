@@ -8,3 +8,6 @@ List of Tips
   - smart-contract : what is smart contract, how we use it
   - solidity : what is solidity, about solidity developing environment
   - testing : about smart contract testing to prepare audit
+
+To-Do
+  - secure contract
