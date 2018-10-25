@@ -14,7 +14,7 @@
 }
 
 contract b {
-    function beta(uint8 bet) {
+    function beta(uint8 beta) {
         // blah ...
     }
 }
